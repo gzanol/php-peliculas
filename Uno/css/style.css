@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background-color: black;
+     }
+   
+
+#container{
+        width: 80%;
+        height: 100%;
+        margin: auto;
+        flex-direction: column;
+        max-width: 1200px;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    h1{
+        color: white;
+    }
+.dropdown-menu{
+    color: white;
+
+    }
+.dropdown{
+    --bs-nav-link-hover-color: none !important;
+}
+.check{
+   color: white;
+   margin-bottom: 10%;
+}
+/*fondo nav*/
+
+.navMio{
+    background-color: black !important;
+}
+/* finfondo nav*/
+
+.navMio a{
+    color: white; 
+}
+.navbarNavDropdown::hover{
+    color: white !important;
+}
+.p{
+    color: white;
+}
+.negro{
+  background-color: black;
+}
+.card{
+    --bs-card-border-width:none !important;
+    margin: 6px;
+}
+.uno{
+    margin-top: 10px;
+    margin-bottom: 5% !important;
+   
+}
+.btn-danger{
+    margin-left: 25%;
+}
+.card-group{
+    margin-bottom: 5%;
+  
+    }
+.foto{
+    box-shadow: rgb(96, 96, 96) 0px 8px 24px;
+}
+.card-text{
+    color: white;
+}
+.card-title{
+    color: white;
+}
+.miofor{
+    background: linear-gradient(to bottom right, rgb(87, 229, 234),hwb(291 32% 28%), pink);
+    margin: 30px;
+    padding: 20px;
+    border-radius: 1%;
+    box-shadow: 8px -16px 54px -16px rgba(185, 185, 185, 0.49);
+}
+.miofor b{
+   color: white;
+}
+
+.fa-2x{
+    color: white;
+    margin-right: 30px;
+
+}
+
+p{
+    color: white !important;
+}
+
+.card{
+    min-width: 300px;
+}
+
+@media (max-width: 640px) {
+
+    body{
+       background-image: url("../img/fondo.jpg");
+    } 
+    .navMio{
+        background-color: white !important;
+    }
+    .navMio a{
+        color: black;
+    }
+    .navbarNavDropdown::hover{
+        color: black;
+    }
+
+}
