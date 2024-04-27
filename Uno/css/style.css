@@ -22,6 +22,7 @@ body{
     h1{
         color: white;
     }
+
 .dropdown-menu{
     color: white;
 
@@ -116,5 +117,16 @@ p{
     .navbarNavDropdown::hover{
         color: black;
     }
+    .fondonegro{
+        display: none;
+    }
+    .navMio a{
+        color: black; 
+    }
+}
+@media (min-width: 640px) {
 
+    .fondoblanco{
+        display: none;
+    }
 }
