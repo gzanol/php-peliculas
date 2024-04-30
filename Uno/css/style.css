@@ -2,10 +2,9 @@
     box-sizing: border-box;
 }
 
-        
 body{
     width: 100%;
-   background-image: url("../img/black.jpg");
+    background-image: url("../img/black.jpg");
      }
      header{
         width: 90%;
@@ -20,30 +19,9 @@ body{
         display: flex;
         flex-wrap: wrap;
     }
-
-    #containercarrusel{ 
-        width: 40%;
-        
-    }
 h1{
         color: white;
     }
-
-    /*Footer*/
-
-.colorfo{
-    background-color: black !important;
-    border-radius: 20px;
-    justify-content: center;
-
-   
-}
-.ult{
-    background-color: beige;
-}
-
- /*Fin Footer*/
-
 
 .dropdown-menu{
     color: white;
@@ -130,12 +108,6 @@ p{
 .fondonegro{
     margin-left: 100px;
 }
-.ultimo{
-    
-    background: linear-gradient(rgb(0, 0, 0), rgb(90, 90, 90));
-}
-
-/* cuando se convierte en celu*/
 @media (max-width: 640px) {
     body{
         background-image: url("../img/fondo.jpg");
@@ -160,25 +132,7 @@ p{
         color: black;
         margin-right: 30px;
     }
-     /*Footer*/
-   
-    .colorfo{
-        background-color: rgb(146, 146, 146) !important;
-        border-radius: 20px;
-        padding: 40px 40px;
-    }
-
-    .mapa{
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-    
-     /*Fin Footer*/
-   
-     
 }
-/* cuando pasa a escritorio*/
 @media (min-width: 640px) {
 
     .fondoblanco{
@@ -188,21 +142,4 @@ p{
         color: white;
         margin-right: 30px;
     }
-  /*Footer*/
-    h5{
-        color: white !important;
-    }
-     /*Footer*/
-    .fo a{
-        color: white !important;
-    }
-    .navfin{
-       
-        text-align: left;
-        padding-left: 150px;
-        
-       
-    }
-
-    /*Fin Footer*/
-} 
+}
