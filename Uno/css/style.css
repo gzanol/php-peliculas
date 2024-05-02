@@ -22,6 +22,9 @@ body{
 h1{
         color: white;
     }
+    .ultimo{
+        color: white;
+    }
 
 .dropdown-menu{
     color: white;
@@ -59,7 +62,13 @@ h1{
 }
 .uno{
     margin-top: 10px;
-    margin-bottom: 5% !important;
+    margin-bottom: 5% !important;   
+}
+.colorfo{
+    background-color: black !important;
+    border-radius: 20px;
+    justify-content: center;
+
    
 }
 .btn-danger{
@@ -132,6 +141,19 @@ p{
         color: black;
         margin-right: 30px;
     }
+     /*Footer*/
+   
+     .colorfo{
+        background-color: rgb(146, 146, 146) !important;
+        border-radius: 20px;
+        padding: 40px 40px;
+    }
+
+    .mapa{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
 }
 @media (min-width: 640px) {
 
@@ -142,4 +164,18 @@ p{
         color: white;
         margin-right: 30px;
     }
+     /*Footer*/
+     h5{
+        color: white !important;
+    }
+    .fo a{
+        color: white !important;
+    }
+    .navfin{
+        text-align: left;
+        padding-left: 150px;
+    }
+
+    /*Fin Footer*/
+
 }
